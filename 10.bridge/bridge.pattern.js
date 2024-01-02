@@ -1,7 +1,7 @@
 //define PaymentProcess
 
 class PaymentProcess {
-    payment(process) {}
+    pay(amount) {}
 }
 
 //define VisaPaymentProcess class

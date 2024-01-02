@@ -23,12 +23,18 @@ class ServiceLogistics {
 
 //order for customer by Car
 const carService = new ServiceLogistics();
-// console.log(
-//     "CarService",
-//     carService.getTransport({
-//         customerInfo: { name: "Ben", cargoVolume: "100kg" },
-//     })
-// );
+console.log(
+    "CarService",
+    carService.getTransport({
+        customerInfo: { name: "Ben", cargoVolume: "100kg" },
+    })
+);
+
+
+
+
+
+
 
 //cach 1
 class Truck {
@@ -52,6 +58,11 @@ console.log(
         customerInfo: { name: "Ben", cargoVolume: "1000kg" },
     })
 );
+
+
+
+
+
 
 //cach 2
 
